@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC
+        "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+        "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+
+<tiles-definitions>
+	<!-- Step-5 -->
+	<!-- scenario :1 -->
+	<definition name="baseTemplate" id="baseTemplate"
+		template="/WEB-INF/layout/baseLayout.jsp">
+		<put-attribute name="header" value="/WEB-INF/layout/header.jsp" />
+		<put-attribute name="menu" value="/WEB-INF/layout/menu.jsp" />
+		<put-attribute name="body" value="${body}" />
+		<put-attribute name="footer" value="/WEB-INF/layout/footer.jsp"/>
+	</definition>
+
+	<definition name="login" id="login" extends="baseTemplate">
+		<put-attribute name="body" value="/WEB-INF/jsp/login.jsp" />
+	</definition>
+	
+	<definition name="registration" id="registration" extends="baseTemplate">
+		<put-attribute name="body" value="/WEB-INF/jsp/registration.jsp" />
+	</definition>
+	
+	<definition name="product" id="product" extends="baseTemplate">
+		<put-attribute name="body" value="/WEB-INF/jsp/product.jsp" />
+	</definition>
+
+	<!-- scenario :2 -->
+	<!-- <definition name="baseTemplate1" id="baseTemplate1"
+		template="/WEB-INF/layout/baseLayout1.jsp">
+		<put-attribute name="body" value="${body}" />
+		<put-attribute name="footer" value="/WEB-INF/layout/footer.jsp"/>
+	</definition>
+	
+	<definition name="dashBoard" id="dashBoard" extends="baseTemplate1">
+		<put-attribute name="body" value="/WEB-INF/jsp/dashBoard.jsp"/>
+		<put-attribute name="footer" value="/WEB-INF/layout/footer.jsp"/>
+	</definition>
+	 -->
+	 
+	<!-- scenario :3 -->
+	<!-- <definition name="login" id="login"  value="/WEB-INF/jsp/dashBoard.jsp"/> -->
+</tiles-definitions>

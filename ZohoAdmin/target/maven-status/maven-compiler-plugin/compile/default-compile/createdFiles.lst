@@ -1,0 +1,10 @@
+com\aartek\pp\validator\LoginValidator.class
+com\aartek\pp\interceptor\TransactionTimeInterceptor.class
+com\aartek\pp\controller\ProductController.class
+com\aartek\pp\interceptor\EmailInterceptor.class
+com\aartek\pp\validator\ProductValidator.class
+com\aartek\pp\controller\LoginController.class
+com\aartek\pp\validator\RegistrationValidator.class
+com\aartek\pp\controller\RegistrationController.class
+com\aartek\pp\interceptor\SessionInterceptor.class
+com\aartek\pp\controller\LogoutController.class

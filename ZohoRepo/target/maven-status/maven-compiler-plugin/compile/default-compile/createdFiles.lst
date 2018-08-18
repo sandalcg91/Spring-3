@@ -1,0 +1,6 @@
+com\aartek\pp\model\Products.class
+com\aartek\pp\model\User.class
+com\aartek\pp\repository\ProductRepository.class
+com\aartek\pp\repository\LoginRepository.class
+com\aartek\pp\repository\RegistrationRepository.class
+com\aartek\pp\model\ProductImage.class
